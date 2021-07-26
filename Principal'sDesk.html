@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <title>Principal's Desk</title>
+    <style>
+        body{
+            background-image:url('data:image/jpeg;base64,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');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .Principal{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Principal div{
+            padding: 100px;
+        }
+        .PrincipalImg img{
+            height: 400px;
+            border-radius: 50%;
+        }
+        .PrincipalImg img:hover{
+            border-radius: 0;
+            box-shadow: 0 20px 20px black;
+        }
+        .PenP{
+            height:fit-content;
+            width: 50%;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: justify;
+        }
+        @media  only screen and (max-width:900px) {
+            .Principal{
+                display: inline;
+                margin:20px;
+            }
+            .Principal div{
+                padding: 0;
+            }
+            .PrincipalImg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .PenP{
+                position: relative;
+                width: 100%;
+                max-height: 400px;
+                /* display: flex;
+                justify-content: center;
+                align-items: center; */
+                text-align: justify;
+                margin-top: 40px;
+            }
+            .PenP p{
+                font-family: sans-serif;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="topnav">
+            <li><a href="index.html" rel="noopener noreferrer">KLRSVM</a></li>
+            <li><a class="right" href="tel:+917752828477"><i class="fas fa-phone-alt"></i> +917752828477</a></li>
+            <li><a class="right" style="text-transform: lowercase;" href="mailto:antiwari1375@gmail.com"><i class="fas fa-envelope-open"></i> antiwari1375@gmail.com</a></li>
+            <li><a href=""><i class="fas fa-file"></i> DISCLOSURE</a></li>
+            <li><a href="ERP.html"><i class="fas fa-sign-in-alt"></i> ERP</a></li>
+            <li><a href=""><i class="fas fa-rupee-sign"></i> ONLINE FEE</a></li>
+            <li><a href="">APPLY ONLINE</a></li>
+            </ul>
+    </div>
+<div class="navbar_Dropdown">
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li class="Dropdown">
+            <a href="" class="dropbtn">About <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="History.html">Our History</a>
+                <a href="Principal'sDesk.html">Principal's Desk</a>
+                <a href="Achievements.html">Our Achievements</a>
+                <a href="">Our Mission</a>
+                <a href="Management.html">Management</a>
+            </div>
+        </li>
+        <li class="Dropdown">
+            <a href="" class="dropbtn">Academics <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="">Events</a>
+                <a href="">Curriculum</a>
+                <a href="">Activities</a>
+                <a href="">Students Result</a>
+            </div>
+        </li>
+        <li class="Dropdown">
+            <a href=""class="dropbtn">Gallary <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="">Photo Gallary</a>
+                <a href="">Video Gallary</a>
+                <a href="">Science Lab</a>
+                <a href="">Computer Lab</a>
+                <a href="">Sport</a>
+            </div>
+        </li>
+        <li class="Dropdown">
+            <a href="" class="dropbtn">KLRSVM Touch <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="faculty.html">Faculty Details</a>
+                <a href="">Staff Details</a>
+                <a href="">Notable Alumni</a>
+                <a href="">Alumni Registration</a>
+            </div>
+        </li>
+        <li class="Dropdown">
+            <a href="" class="dropbtn">Downloads <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="pdf/prospectus.pdf" target="_blank">Prospectus</a>
+                <a href="pdf/syllabus.pdf" target="_blank">Syllabus</a>
+                <a href="">Question Papers</a>
+                <a href="">Results<sup style="color: red; font-weight: bold;">NEW</sup></a>
+            </div>
+        </li>
+        <li class="Dropdown">
+            <a href="" class="dropbtn">School Information <i class="fas fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="pdf/AdmissionProcess.pdf" target="_blank">Regarding Admission</a>
+                <a href="MembarOfSchool.html">Member of school</a>
+                <a href="faculty.html">Faculty</a>
+                <a href="#">Notices</a>
+            </div>
+        </li>
+        <li><a href="">Contact Us <i class="fas fa-address-book"></i></a></li>
+    </ul>
+</div>
+    <div class="Principal">
+       <div class="PrincipalImg">
+            <img src="image/principalImg.jpg" alt="" srcset="">
+       </div> 
+       <div class="PenP">
+            <q>
+                विद्या भारती अखिल भारतीय शिक्षण
+                संस्थान से सम्बद्ध कूड़ीलाल रूंगटा सरस्वती विद्या
+                मन्दिर उच्चतर माध्यमिक विद्यालय विधियानी,
+                खलीलाबाद-संतकबीर नगर उत्तर प्रदेश शैक्षणिक
+                संस्थानों में एक है, यह अपने शैक्षिक गतिविधियों
+                क्रियाकलापों में निरन्तर प्रगति के पथ पर अग्रसर है।
+                शिक्षालय में छात्र अपने माँ के ममत्व, पिता के
+                वात्सल्य और भाई-बहनों के स्नेह को त्याग कर
+                आता है। आवश्यकता है उसके अज्ञान तिमिर को
+                तिरोहित करके जीवन के परम लक्ष्य का बोध
+                कराना। कतिपय कारणों से आज का छात्र
+                स्वाभिमान रहित राष्ट्रीय चरित्र से वचित संस्कार
+                शून्य परावलम्बी होता जा रहा है। अध्ययनरत् छात्रों
+                में निःस्वार्थ देशभक्ति की भावना, आत्मबोध,
+                आत्म-निर्भरता आदि राष्ट्रीय सद्गुणों का निर्माण
+                कर उसे नवीन परिस्थितियों के अनुकूल करने की
+                हार्दिक इच्छा है। हमें पूर्ण आशा और विश्वास है कि
+                आप सबके स्नेहाशीष से विद्यालय प्राप्त चुनौतियों
+                का सम्मान करते हुए नित नूतन ऊँचाईयों को स्पर्श
+                करेगा।
+                </q>
+                <p style="margin-left: 380px; background-color: yellow;">प्रधानाचार्य की कलम से....<i class="fas fa-pen-alt"></i></p>
+       </div>
+    </div>
+    <div class="">
+        <p style="font-size: 20px; font-weight: 900; text-align: center;">
+            <q>विद्वित्वं च नृपत्वं च नैव तुल्यं कदाचन्<br> 
+            स्वदेशे पूज्यते राजा विद्वान् सर्वत्र पूज्यते </q>
+        </p> 
+    </div>
+    <footer>
+        <div class="credit">
+            <span>
+                © Kuri Lal Rungta Sarswati Vidya Mandir Inter College<br>
+                Designed & Maintained By <span style="font-weight: 900;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Madhurendra Nath Tiwari</span>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
